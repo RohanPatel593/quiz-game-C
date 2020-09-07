@@ -26,7 +26,7 @@ return(-1);
       else
       {	 *top = *top + 1;
 	    strcpy(stack[*top], playername);
-	    return(1);	}	}
+	    return(1);	}	} 
 void help()
 {	clrscr();
 printf("\n\n                              HELP");
